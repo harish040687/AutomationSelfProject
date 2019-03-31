@@ -1,0 +1,9 @@
+Install Extent report 3.1.3
+install nunit 3
+install nunit consoller
+install selenium.webdriver
+install selenium.chrome driver
+install system.valueTupble
+install Tallcomponents for PDF access
+install Newtonsoft.jsob
+instlal nunit Testadapter
