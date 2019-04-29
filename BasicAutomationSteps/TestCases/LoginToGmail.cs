@@ -9,6 +9,9 @@ using OpenQA.Selenium.Chrome;
 
 using NUnit.Framework;
 using AutomationLibrary;
+using BasicAutomationSteps.Enums;
+using System.Diagnostics;
+
 
 namespace BasicAutomationSteps.TestCases
 {
@@ -28,10 +31,11 @@ namespace BasicAutomationSteps.TestCases
             }
             Console.WriteLine("");
             
-            
-
-            
-
+        }
+        [category("TestWithIEnumerableDataSource"),TestCaseSource(typeof(TestDataSource),
+            nameof(TestDataSource))]
+        public void LoginTo(string t, string tom)
+        {
 
         }
     }

@@ -63,7 +63,7 @@ namespace Automate_Webpage.Testcases
             }
 
             Console.WriteLine("");
-            Console.writeLine("");
+            Console.WriteLine("");
 
         }
     }
